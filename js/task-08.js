@@ -15,5 +15,4 @@ function handleLogin(event) {
   }
 
   console.log(`Email: ${loginData.email}, Password: ${loginData.password}`);
-  console.dir(event.currentTarget.elements);
 }
