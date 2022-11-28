@@ -14,5 +14,6 @@ function handleLogin(event) {
     return alert("Please fill in all the fields!");
   }
 
-  console.log(`Email: ${loginData.email}, Password: ${loginData.password}`);
+  console.log(loginData);
+  event.currentTarget.reset();
 }
